@@ -1,0 +1,34 @@
+# ------ root_path/dataset_name ------
+root_path: '/data/LargeData/Regular/cifar'
+
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+load_cache: True
+# load_pre_feat: True
+
+
+# ------ Hyperparamters ------
+search_hp: True
+# search_hp: False
+
+search_scale: [100, 10]
+search_step: [200, 20]
+
+init_beta: 3
+init_alpha: 1
+
+
+# ------ Basic Config ------
+dataset: 'cifar10'
+shots: 16
+backbone: 'RN50'
+
+lr: 0.001
+augment_epoch: 5
+train_epoch: 20
+
+best_beta: 0.805
+best_alpha: 1.09
