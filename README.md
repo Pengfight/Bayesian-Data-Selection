@@ -1,7 +1,5 @@
 # The implement of 'Towards Accelerated Model Training via Bayesian Data Selection'
 
-Thank you for taking the time to review our code and datasets. This readme describes how to run our proposed method. Notice: Our programs are build based on GPU, it is better to test them in GPU.
-
 ## Environment Settings
 
 - numpy==1.20.1
